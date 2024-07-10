@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaturePathic</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="data:image/png;base64,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">
+</head>
+<body>
+
+    <!-- nav -->
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img height="50px" width="" src="https://static1.squarespace.com/static/6291604274bc7d0c02445423/t/629169cb9aa74d6fd5a0e29b/1681933147117/" alt="" width="30" height="24">
+          </a>
+          <ul class="ul" type="none">
+            <li><a class="a" href="">Home</a></li>
+            <li><a class="a" href="">Testimonies</a></li>
+            <li><a class="a" href="">Pricing</a></li>
+            <li><a class="a" href="">Contact Us</a></li>
+            <li><button id="button">Book Now</button></li>
+        </ul>
+        </div>
+    </nav>
+    
+    <!-- banner -->
+
+    <div class="div">
+        <img height="527px" src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/2bfc701c-a23a-4ee1-8cd5-ae9c1aa9e12d/Homepage-edit-First-Image.jpg" alt="">
+        <div class="p">
+            <h2>Welcome to Vancouver<br> Naturopathic Clinic</h2><br><br>
+            <h5>Your holistic health partner for over 30years</h5><br>
+            <button class="button">Book Now</button>
+        </div>
+    </div>
+
+    <!-- icons -->
+
+    <div class="icons">
+        <div class="icon1">
+            <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/1655423885493-ILCGMF9ST25TS68FFC16/Our+Approach.png?format=300w">
+            <div><p>OUR APPROACH</p></div>
+        </div>
+        <div class="icon1">
+            <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/1655423916624-MQXWMZ1TKVTUKJMS5U4L/Principles+of+Naturopathic+Medicine.png?format=300w">
+            <div><p>PRINCIPLES OF NATUROPATHIC<br> MEDICINE</p></div>
+        </div>
+        <div class="icon1">
+            <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/1655423948240-NFCQ54F93YUT93O0DYKN/Health+Programs.png?format=300w">
+            <div><p>HEALTH PROGRAMS</p></div>
+        </div>
+        <div class="icon1">
+            <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/1655423963367-XDNUPNZFK2SMV3L3818P/Your+First+Visit.png?format=300w">
+            <div><p>YOUR FIRST VISIT</p></div>
+        </div>
+        <div class="icon1">
+            <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/1655423978832-HB9P8L7NNQ7GI14WZV7E/Our+Team.png?format=300w">
+            <div><p>OUR</p></div>
+        </div>
+    </div>
+
+    <!-- about -->
+
+
+    <div class="about">
+        <div class="about1">
+            <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/e793bafd-9d49-4283-8963-48df564cdd50/Vancouver-Naturopathic-Clinic-Clinic-Owners.jpg?format=1500w" alt="">
+            <div class="head">
+                <h2>Healing Vancouver for over 30 years</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil recusandae, aliquid quia tenetur, consequuntur aspernatur nostrum fugiat, minus ipsam rerum vitae magni ea ab itaque. Omnis ad rerum ea similique.</p>
+                <button class="button">LEARN MORE</button>
+            </div>      
+        </div>
+        <div class="about1">
+            <div class="head">
+                <h2>A balanced approach to individualized healthcare</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil recusandae, aliquid quia tenetur, consequuntur aspernatur nostrum fugiat, minus ipsam rerum vitae magni ea ab itaque. Omnis ad rerum ea similique.</p>
+                <button class="button">LEARN MORE</button>
+            </div>    
+            <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/e793bafd-9d49-4283-8963-48df564cdd50/Vancouver-Naturopathic-Clinic-Clinic-Owners.jpg?format=1500w" alt="">
+        </div>
+        <div class="about1">
+            <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/e793bafd-9d49-4283-8963-48df564cdd50/Vancouver-Naturopathic-Clinic-Clinic-Owners.jpg?format=1500w" alt="">
+            <div class="head">
+                <h2>Staying true to our roots</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil recusandae, aliquid quia tenetur, consequuntur aspernatur nostrum fugiat, minus ipsam rerum vitae magni ea ab itaque. Omnis ad rerum ea similique.</p>
+                <button class="button">LEARN MORE</button>
+            </div>      
+        </div>
+    </div>
+
+</body>
+</html>
